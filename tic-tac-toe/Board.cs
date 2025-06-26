@@ -11,7 +11,10 @@ namespace tic_tac_toe
         public void DrawBoard(int _round)
         {
             Console.Clear();
-            Console.WriteLine($"Round {_round}");
+            Console.WriteLine($"\tRound {_round}");
+            Console.WriteLine("\t=======");
+            Console.WriteLine($"{player1.Name} : {player1.Score}");
+            Console.WriteLine($"{player2.Name} : {player2.Score}\n");
             Console.WriteLine($"\t {Field[0]} | {Field[1]} | {Field[2]} ");
             Console.WriteLine($"\t---+---+---");
             Console.WriteLine($"\t {Field[3]} | {Field[4]} | {Field[5]} ");

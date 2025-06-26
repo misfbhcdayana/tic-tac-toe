@@ -49,8 +49,9 @@ namespace tic_tac_toe
                 if (win)
                 {
                     //end game
-                    Console.WriteLine($"Round {_Round} : {CurrentPlayer.Name} wins!");
                     CurrentPlayer.Score++;
+                    board.DrawBoard(_Round);
+                    Console.WriteLine($"\nRound {_Round} : {CurrentPlayer.Name} wins!");
                     _Round++;
                     board.ClearBoard();
                     return;

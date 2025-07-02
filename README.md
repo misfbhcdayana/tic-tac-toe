@@ -2,7 +2,7 @@
 Just a fun console representation of the famous game, Tic Tac Toe
 ---
 ### Features
-- Two-player game playe
+- Two-player game play mode
 - Player naming option
 - Play multiple rounds
 - Score tracking across rounds

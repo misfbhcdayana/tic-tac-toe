@@ -31,6 +31,7 @@ git clone https://github.com/your-username/tic-tac-toe-console.git
 ### To Do
 - Add a single player mode
 - Build a leaderboard system
+- Alternate Player turns in a continuous game
 ### Contributing
 Contributions are welcome! Feel free to fork this repo, enhance it, and open a pull request.
 
